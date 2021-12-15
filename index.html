@@ -4,12 +4,32 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Tic-tac-toe</title>
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
   <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-
+  <section class="game">
+    <div class="display">
+      Player <span class="display-player playerX">X</span>ni navbati
+    </div>
+    <div class="game-box-list">
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+      <div class="game-box"></div>
+    </div>
+    <div class="display announcer hide"></div>
+    <div class="controls">
+      <button id="reset">Qayta boshlash</button>
+    </div>
+  </section>
+  
+  <script src="js/main.js"></script>
 </body>
 </html>
